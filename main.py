@@ -94,4 +94,5 @@ def weather_for5(message, city, API_KEY):
     else:
         bot.send_message(message.chat.id, "\U0001F92D")
 
+
 bot.polling()
